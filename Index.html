@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Visionaries - Smart Agriculture Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Eco Visionaries - Smart Agriculture Tool</h1>
+    <p>Empowering Farmers with Real-Time Data and NASA Technology</p>
+</header>
+
+<section>
+    <div class="content">
+        <h2>Real-Time Agricultural Forecasts</h2>
+        <p>Our tool integrates NASA Earth observation data with IoT sensors to provide key insights and forecasts for smarter agricultural management. Explore the forecasts below:</p>
+    </div>
+</section>
+
+<section class="forecast-section">
+    <div class="forecast-box">
+        <h3>🌦 Weather Forecast</h3>
+        <p><span class="highlight">Today's Weather:</span> Partly cloudy, 25°C. Expected rainfall: 5mm.</p>
+        <p><span class="highlight">Tomorrow's Forecast:</span> Clear skies, 28°C, humidity 50%.</p>
+        <p>Stay updated with real-time weather conditions to make informed decisions about irrigation and field work.</p>
+    </div>
+
+    <div class="forecast-box">
+        <h3>🌱 Soil Moisture Levels</h3>
+        <p><span class="highlight">Current Moisture:</span> 45% in Zone 1, 52% in Zone 2.</p>
+        <p>Ideal moisture levels for crop health range between 40% and 60%. Consider irrigation in Zone 1.</p>
+    </div>
+
+    <div class="forecast-box">
+        <h3>🐛 Pest Monitoring</h3>
+        <p><span class="highlight">Pest Alert:</span> Low risk of aphids in Zone 3.</p>
+        <p>Early detection of pests can reduce crop damage. Monitor these conditions to take timely actions.</p>
+    </div>
+
+    <div class="forecast-box">
+        <h3>💧 Water Usage & Management</h3>
+        <p><span class="highlight">Daily Water Usage:</span> 3200 liters consumed in the past 24 hours.</p>
+        <p>Optimize your water management based on real-time data from sensors and forecasts to reduce waste and increase efficiency.</p>
+    </div>
+</section>
+
+<section class="data-input-section">
+    <div class="content">
+        <h2>Add Weather Data</h2>
+        <form id="weather-data-form">
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+
+            <label for="temperature">Temperature (°C):</label>
+            <input type="number" id="temperature" required>
+
+            <label for="humidity">Humidity (%):</label>
+            <input type="number" id="humidity" required>
+
+            <label for="precipitation">Precipitation (mm):</label>
+            <input type="number" id="precipitation" required>
+
+            <button type="submit">Submit Data</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2024 Eco Visionaries | Transforming Agriculture with Technology</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
